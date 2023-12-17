@@ -8,10 +8,11 @@
 	</head>
 
 	<body style="margin:0px">
-		<audio autoplay loop>
+		<audio id="myAudio" loop>
 			<source src="music/music.mp3" type="audio/mpeg">
 			Your browser does not support the audio.
 		</audio>
+		
 		<canvas></canvas>
 		<div id="imgTxt">
 			<span id="Txt"></span> <br />
@@ -32,6 +33,7 @@
 				<b id="m"></b> Minutes
 				<b id="s"></b> Seconds
 			</div>
+			<button id="playButton" class="play-music-button">Play Music</button>
 		</div>
 
     	<div id = "typeDiv">
@@ -63,5 +65,6 @@
 		<script type="text/javascript" src="./js/typeWriter.js"></script>
 		<script type="text/javascript" src="./js/date.js"></script>
 		<script type="text/javascript" src="./js/playImg.js"></script>
+		<script type="text/javascript" src="./js/music.js"></script>
 	</body>
 </html>
