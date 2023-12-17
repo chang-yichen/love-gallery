@@ -102,7 +102,6 @@
 
 .play-music-button {
 	position: relative;
-	top: 50%; /* Move down by 50% of its parent's height */
 	padding: 10px 20px; /* Padding around the text */
 	background-color: white; /* White background */
 	color: black; /* White text */
